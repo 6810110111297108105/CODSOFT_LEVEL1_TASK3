@@ -1,0 +1,77 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #282c34; /* Dark background color */
+    color: #fff; /* Light text color for contrast */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  h1.text-center {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #61dafb; /* Light blue color for the heading */
+  }
+  
+  .container {
+    background-color: #3a3f47; /* Dark gray background for the calculator */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    padding: 20px;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: right;
+    background-color: #2e3238; /* Darker background for input */
+    color: #fff; /* Light text color for input */
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 10px; /* Space between buttons */
+  }
+  
+  .button {
+    background-color: #6200ea; /* Purple background for buttons */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #3700b3; /* Darker purple on hover */
+  }
+  
+  .operator {
+    background-color: #03dac5; /* Teal color for operators */
+  }
+  
+  .operator:hover {
+    background-color: #018786; /* Darker teal on hover */
+  }
+  
+  .number {
+    background-color: #ffffff; /* White color for number buttons */
+    color: #000; /* Black text color for numbers */
+  }
+  
+  .number:hover {
+    background-color: #eeeeee; /* Light gray on hover */
+  }
+  
